@@ -46,7 +46,10 @@ public class HelloWorldController {
         return modelAndView;
     }
 	
-	@RequestMapping(value="/paramstest", params="example!=AAA", method = {RequestMethod.GET})
+	//@RequestMapping(value="/paramstest", params="example", method = {RequestMethod.GET})
+	//@RequestMapping(value="/paramstest", params="!example", method = {RequestMethod.GET})
+	@RequestMapping(value="/paramstest", params="example=AAA", method = {RequestMethod.GET})
+	//@RequestMapping(value="/paramstest", params="example!=AAA", method = {RequestMethod.GET})
 	public ModelAndView paramsTest(){
 		
 		ModelAndView modelAndView = new ModelAndView();   
