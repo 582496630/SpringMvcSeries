@@ -7,7 +7,7 @@
 <html>
 <head>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
@@ -26,7 +26,7 @@
 			    $.ajax({  
 			        type : 'POST',  
 			        contentType : 'application/json',  
-			        url : 'http://localhost:8080/SpringMVCLesson/databind/requestbodybind',  
+			        url : 'http://localhost:8080/SpringMvcLesson9/databind/requestbodybind',  
 			        processData : false,  
 			        dataType : 'json',  
 			        data : postdata,  
