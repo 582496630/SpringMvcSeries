@@ -22,6 +22,8 @@
 	<script type="text/javascript">
 		$(function() { 
 			$("#submit").click(function() {   
+				
+				
 	            var postdata = '{"username":"' + $('#username').val() + '","password":"' + $('#password').val() + '"}';   
 			    $.ajax({  
 			        type : 'POST',  

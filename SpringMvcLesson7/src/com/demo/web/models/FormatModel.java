@@ -10,6 +10,7 @@ import lombok.Setter;
 @Getter@Setter
 public class FormatModel{
 	
+	//金钱、日期格式化
 	@NumberFormat(style=Style.CURRENCY)
 	private double money;
 	@DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
